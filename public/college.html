@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>little squirrel | Landing, Responsive &amp; Business Templatee</title>
+
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link href="assets/css/theme.css" rel="stylesheet" />
+    <style>
+      th, td {
+          border: 1px solid darkgray;
+          border-collapse: collapse;
+          text-align: center;
+          padding: 10px 10px;
+
+      }
+      th {
+          text-align: center;
+      }
+      </style>      
+      
+
+  </head>
+
+
+  <body>
+
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main class="main" id="top">
+
+
+
+
+      <nav class="navbar navbar-expand-lg navbar-light sticky-top py-3 d-block" data-navbar-on-scroll="data-navbar-on-scroll">
+        <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/gallery/logo-n.png" height="45" alt="logo" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"> </span></button>
+          <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base">
+              <li class="nav-item px-2"><a class="nav-link active" aria-current="page" href="index.html">수강 신청</a></li>
+              <li class="nav-item px-2"><a class="nav-link" aria-current="page" href="index-list.html">수강 신청 내역</a></li>
+              <li class="nav-item px-2"><a class="nav-link" aria-current="page" href="time-table.html">시간표 확인</a></li>
+            </ul><a class="btn btn-primary order-1 order-lg-0" href="login.html">로그 아웃</a>
+            
+          </div>
+        </div>
+      </nav>
+      
+
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+
+        
+      <section class="py-0" style="margin-top:-5.8rem">
+
+        <div class="container">
+          <div class="row">
+            
+          </div>
+        </div>
+        <!-- end of .container-->
+
+      </section>
+
+
+      <section class="pb-11 pt-7 bg-600">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <form class="row g-3">
+                <div class="col-sm-2 col-md-3">
+                  <label class="form-label" for="inputCategories">단과대</label>
+                  <select class="form-select" id="inputCategories">
+                    <option value="1">전자정보대학</option>
+                    <option value="1">공과대학</option>
+                    <option value="2">의과대학</option>
+                    <option value="3">사회과학대학</option>
+                    <option value="4">인문대학</option>
+                    <option value="5">경영대학</option>
+                    <option value="6">농경생명대학</option>
+                    <option value="7">생활과학대학</option>
+                    <option value="7">수의과학대학</option>
+                    <option value="7">약학대학</option>
+                    <option value="7">사범대학</option>
+                  </select>
+                </div>
+                <div class="col-sm-2 col-md-3">
+                  <label class="form-label" for="inputLevel">학과</label>
+                  <select class="form-select" id="inputLevel">
+                    <option value="1">소프트웨어학과</option>
+                    <option value="2">전기공학과</option>
+                    <option value="3">전자공학부</option>
+                    <option value="4">지능로봇공학과</option>
+                    <option value="5">컴퓨터공학과</option>
+                    <option value="6">정보통신학과</option>
+                  </select>
+                </div>
+                <div class="col-sm-2 col-md-2">
+                  <label class="form-label" for="inputLanguage">구분</label>
+                  <select class="form-select" id="inputLanguage">
+                    <option selected="selected">All</option>
+                    <option value="1">전공필수</option>
+                    <option value="2">전공선택</option>
+                    <option value="3">교양필수</option>
+                    <option value="4">교양선택</option>
+                    <option value="5">교직</option>
+                    <option value="6">일반선택</option>
+                  </select>
+                </div>
+                <div class="col-sm-2 col-md-2">
+                  <label class="form-label" for="inputInstructor">학년</label>
+                  <select class="form-select" id="inputInstructor">
+                    <option selected="selected">All</option>
+                    <option value="1">1학년</option>
+                    <option value="2">2학년</option>
+                    <option value="3">3학년</option>
+                    <option value="4">4학년</option>
+                  </select>
+                </div>
+                <div class="col-auto z-index-2">
+                  <button class="btn btn-primary" type="submit">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <script>
+        function myFunction1() {
+        document.getElementById("btn1").innerHTML = "신청 완료";
+        }
+        function myFunction2() {
+        document.getElementById("btn2").innerHTML = "신청 완료";
+        }
+        function myFunction3() {
+        document.getElementById("btn3").innerHTML = "신청 완료";
+        }
+        function myFunction4() {
+        document.getElementById("btn4").innerHTML = "신청 완료";
+        }
+        function myFunction5() {
+        document.getElementById("btn5").innerHTML = "신청 완료";
+        }
+        function myFunction6() {
+        document.getElementById("btn6").innerHTML = "신청 완료";
+        }
+        function myFunction7() {
+        document.getElementById("btn7").innerHTML = "신청 완료";
+        }
+        function myFunction8() {
+        document.getElementById("btn8").innerHTML = "신청 완료";
+        }
+        function myFunction9() {
+        document.getElementById("btn9").innerHTML = "신청 완료";
+        }
+        function myFunction10() {
+        document.getElementById("btn10").innerHTML = "신청 완료";
+        }
+        function myFunction11() {
+        document.getElementById("btn11").innerHTML = "신청 완료";
+        }
+        function myFunction12() {
+        document.getElementById("btn12").innerHTML = "신청 완료";
+        }
+        function myFunction13() {
+        document.getElementById("btn13").innerHTML = "신청 완료";
+        }
+        function myFunction14() {
+        document.getElementById("btn14").innerHTML = "신청 완료";
+        }
+        function myFunction15() {
+        document.getElementById("btn15").innerHTML = "신청 완료";
+        }
+        function myFunction16() {
+        document.getElementById("btn16").innerHTML = "신청 완료";
+        }
+        function myFunction17() {
+        document.getElementById("btn17").innerHTML = "신청 완료";
+        }
+        function myFunction18() {
+        document.getElementById("btn18").innerHTML = "신청 완료";
+        }
+        function myFunction19() {
+        document.getElementById("btn19").innerHTML = "신청 완료";
+        }
+        function myFunction20() {
+        document.getElementById("btn20").innerHTML = "신청 완료";
+        }
+        function myFunction21() {
+        document.getElementById("btn21").innerHTML = "신청 완료";
+        }
+        function myFunction22() {
+        document.getElementById("btn22").innerHTML = "신청 완료";
+        }
+        function myFunction23() {
+        document.getElementById("btn23").innerHTML = "신청 완료";
+        }
+        function myFunction24() {
+        document.getElementById("btn24").innerHTML = "신청 완료";
+        }
+        function myFunction25() {
+        document.getElementById("btn25").innerHTML = "신청 완료";
+        }
+        function myFunction26() {
+        document.getElementById("btn26").innerHTML = "신청 완료";
+        }
+        function myFunction27() {
+        document.getElementById("btn27").innerHTML = "신청 완료";
+        }
+        function myFunction28() {
+        document.getElementById("btn28").innerHTML = "신청 완료";
+        }
+        function myFunction29() {
+        document.getElementById("btn29").innerHTML = "신청 완료";
+        }
+        function myFunction30() {
+        document.getElementById("btn30").innerHTML = "신청 완료";
+        }
+        function myFunction31() {
+        document.getElementById("btn31").innerHTML = "신청 완료";
+        }
+        function myFunction32() {
+        document.getElementById("btn32").innerHTML = "신청 완료";
+        }
+        function myFunction33() {
+        document.getElementById("btn33").innerHTML = "신청 완료";
+        }
+
+
+      </script>
+
+      <section>
+        
+        <div class="container">
+          <div class="row">
+             <div class="col-sm-12 mb-4">
+              <div class="con" style="display:flex;">
+                <table style="width:100%"  >
+                  <caption style="margin: 20px;">2022년도 개설 강좌</caption>
+                  <tr>
+                      <th>컴퓨터시스템개론</th>
+                      <th>최경주 교수님</th>
+                      <th>화 02, 03 / 목 01</th>
+                      <th>1학년</th>
+                      <th>전공필수</th>
+                      <th>3학점</th>
+                      <th>5111002-01</th>
+                      <th><button onclick="myFunction1()" id="btn1">신청</button></th>
+                  </tr>
+
+                  <tr>
+                      <th>컴퓨터시스템개론</th>
+                      <th>이의종 교수님</th>
+                      <th>화 02, 03 / 목 03</th>
+                      <th>1학년</th>
+                      <th>전공필수</th>
+                      <th>3학점</th>
+                      <th>5111002-02</th>
+                      <th><button onclick="myFunction2()" id="btn2">신청</button></th>
+                  </tr>
+
+                  <tr>
+                      <th>오픈소스 소프트웨어 이해와 실습</th>
+                      <th>노서영 교수님</th>
+                      <th>목 02 / 금 05, 06</th>
+                      <th>1학년</th>
+                      <th>전공필수</th>
+                      <th>2학점</th>
+                      <th>5111080-01</th>
+                      <th><button onclick="myFunction3()" id="btn3capfirst">신청</button></th>
+                  </tr>
+
+                  <tr>
+                      <th>미래설계준비</th>
+                      <th>최경주 교수님</th>
+                      <th>수 08, 09</th>
+                      <th>1학년
+                      <th>전공선택</th>
+                      <th>1학점</th>
+                      <th>5111082-01</th>
+                      <th><button onclick="myFunction4()" id="btn4">신청</button></th>
+                  </tr>
+
+                  <tr>
+                      <th>프로그래밍언어론</th>
+                      <th>이병훈 교수님</th>
+                      <th>월 06, 07 / 목 05</th>
+                      <th>2학년</th>
+                      <th>전공선택</th>
+                      <th>3학점</th>
+                      <th>5111011-01</th>
+                      <th><button onclick="myFunction5()" id="btn5">신청</button></th>
+                  </th>
+
+                  <tr>
+                      <th>프로그래밍언어론</th>
+                      <th>이병훈 교수님</th>
+                      <th>월 08 / 목 06, 07</th>
+                      <th>2학년</th>
+                      <th>전공선택</th>
+                      <th>3학점</th>
+                      <th>5111011-02</th>
+                      <th><button onclick="myFunction6()" id="btn6">신청</button></th>
+                  </tr>
+
+                  <tr>
+                      <th>시스템프로그래밍</th>
+                      <th>조희승 교수님</th>
+                      <th>월 07 / 화 05, 06</th>
+                      <th>2학년</th>
+                      <th>전공선택</th>
+                      <th>3학점</th>
+                      <th>5111012-01</th>
+                      <th><button onclick="myFunction7()" id="btn7">신청</button></th>
+                  </tr>
+
+                  <tr>
+                      <th>확률및통계</th>
+                      <th>조오현 교수님</th>
+                      <th>월 05 / 화 02, 03</th>
+                      <th>2학년</th>
+                      <th>전공선택</th>
+                      <th>3학점</th>
+                      <th>5111013-01</th>
+                      <th><button onclick="myFunction8()" id="btn8">신청</button></th>
+                  </tr>
+
+                  <tr>
+                      <th>확률및통계</th>
+                      <th>최정배 교수님</th>
+                      <th>월 05 / 화 02, 03</th>
+                      <th>2학년</th>
+                      <th>전공선택</th>
+                      <th>3학점</th>
+                      <th>5111013-02</th>
+                      <th><button onclick="myFunction9()" id="btn9">신청</button></th>
+                  </tr>
+
+                  <tr>
+                      <th>알고리즘</th>
+                      <th>류관희 교수님</th>
+                      <th>월 02, 03 / 목 02</th>
+                      <th>2학년</th>
+                      <th>전공필수</th>
+                      <th>3학점</th>
+                      <th>5111022-01</th>
+                      <th><button onclick="myFunction10()" id="btn10">신청</button></th>
+                  </tr>
+
+                  <tr>
+                      <th>알고리즘</th>
+                      <th>이의종 교수님</th>
+                      <th>월 02, 03 / 수 05</th>
+                      <th>2학년</th>
+                      <th>전공필수</th>
+                      <th>3학점</th>
+                      <th>5111022-02</th>
+                      <th><button onclick="myFunction11()" id="btn11">신청</button></th>
+                  </tr>
+
+                  <tr>
+                      <th>컴퓨터그래픽스</th>
+                      <th>류관희 교수님</th>
+                      <th>화 08, 09 / 수 02</th>
+                      <th>2학년</th>
+                      <th>전공선택</th>
+                      <th>3학점</th>
+                      <th>5111027-01</th>
+                      <th><button onclick="myFunction12()" id="btn12">신청</button></th>
+                  </tr>
+
+                  <tr>
+                      <th>컴퓨터그래픽스</th>
+                      <th>최경주 교수님</th>
+                      <th>수 02, 03 / 금 03</th>
+                      <th>2학년</th>
+                      <th>전공선택</th>
+                      <th>3학점</th>
+                      <th>5111027-02</th>
+                      <th><button onclick="myFunction13()" id="btn13">신청</button></th>
+                  </tr>
+
+                  <tr>
+                      <th>오픈소스개발프로젝트</th>
+                      <th>강재구, 홍장의 교수님</th>
+                      <th>금 06, 07, 08, 09</th>
+                      <th>2학년</th>
+                      <th>전공선택</th>
+                      <th>2학점</th>
+                      <th>5111070-01</th>
+                      <th><button onclick="myFunction14()" id="btn14">신청</button></th>
+                  </tr>
+
+                  <tr>
+                    <th>오픈소스개발프로젝트</th>
+                      <th>황경순 교수님</th>
+                      <th>금 06, 07, 08, 09</th>
+                      <th>2학년</th>
+                      <th>전공선택</th>
+                      <th>2학점</th>
+                      <th>5111070-02</th>
+                      <th><button onclick="myFunction15()" id="btn15">신청</button></th>
+                  </tr>
+  
+                  <tr>
+                    <th>소프트웨어공학</th>
+                    <th>홍장의 교수님</th>
+                    <th>월 08, 09 / 화 09</th>
+                    <th>3학년</th>
+                    <th>전공필수</th>
+                    <th>3학점</th>
+                    <th>5111024-01</th>
+                      <th><button onclick="myFunction16()" id="btn16">신청</button></th>
+                  </tr>
+
+                  <tr>
+                    <th>소프트웨어공학</th>
+                    <th>이종연 교수님</th>
+                    <th>월 08, 09 / 화 09</th>
+                    <th>3학년</th>
+                    <th>전공필수</th>
+                    <th>3학점</th>
+                    <th>5111024-02</th>
+                    <th><button onclick="myFunction17()" id="btn17">신청</button></th>
+                  </tr>
+                  
+                  <tr>
+                    <th>소프트웨어공학</th>
+                    <th>이의종 교수님</th>
+                    <th>월 08, 09 / 화 09</th>
+                    <th>3학년</th>
+                    <th>전공필수</th>
+                    <th>3학점</th>
+                    <th>5111024-03</th>
+                    <th><button onclick="myFunction18()" id="btn18">신청</button></th>
+                  </tr>
+
+                  <tr>
+                    <th>데이터베이스시스템</th>
+                    <th>노서영, 이종연 교수님</th>
+                    <th>수 05, 06 / 금 08, 09</th>
+                    <th>3학년</th>
+                    <th>전공선택</th>
+                    <th>3학점</th>
+                    <th>5111026-01</th>
+                      <th><button onclick="myFunction19()" id="btn19">신청</button></th>
+                  </tr>
+
+                  <tr>
+                    <th>데이터베이스시스템</th>
+                    <th>나스리디노프 아지즈 교수님</th>
+                    <th>수 05, 06 / 금 08, 09</th>
+                    <th>3학년 <th>전공선택 <th>3학점 <th>5111026-02</th>
+                      <th><button onclick="myFunction20()" id="btn20">신청</button></th>
+                  </tr>
+
+                  <tr>
+                    <th>인공지능</th>
+                    <th>이건명 교수님</th>
+                    <th>월 02. 03 / 화 05</th>
+                    <th>3학년</th>
+                    <th>전공선택</th>
+                    <th>3학점</th>
+                    <th>5111033-01</th>
+                      <th><button onclick="myFunction21()" id="btn21">신청</button></th>
+                  </tr>
+
+                  <tr>
+                    <th>정보보호</th>
+                    <th>조오현 교수님</th>
+                    <th>월 07 / 금 05, 06</th>
+                    <th>3학년</th>
+                    <th>전공선택</th>
+                    <th>3학점</th>
+                    <th>5111041-01</th>
+                      <th><button onclick="myFunction22()" id="btn22">신청</button></th>
+                  </tr>
+
+                  <tr>
+                    <th>펌웨어프로그래밍</th>
+                    <th>전중남 교수님</th>
+                    <th>화 02, 03 / 수 02, 03</th>
+                    <th>3학년</th>
+                    <th>전공선택</th>
+                    <th>3학점</th>
+                    <th>5111045-01</th>
+                      <th><button onclick="myFunction23()" id="btn23">신청</button></th>
+                  </tr>
+
+                  <tr>
+                    <th>펌웨어프로그래밍</th>
+                    <th>전중남 교수님</th>
+                    <th>목 01, 02 / 금 01, 02</th>
+                    <th>3학년</th>
+                    <th>전공선택</th>
+                    <th>3학점</th>
+                    <th>5111045-02</th>
+                      <th><button onclick="myFunction24()" id="btn24">신청</button></th>
+                  </tr>
+
+                  <tr>
+                    <th>산학프로젝트(종합설계)</th>
+                    <th>강재구 교수님</th>
+                    <th>목 06, 07, 08, 09</th>
+                    <th>3학년</th>
+                    <th>전공선택</th>
+                    <th>2학점</th>
+                    <th>5111061-01</th>
+                      <th><button onclick="myFunction25()" id="btn25">신청</button></th>
+                  </tr>
+
+                  <tr>
+                    <th>산학프로젝트(종합설계)</th>
+                    <th>황경순 교수님</th>
+                    <th>목 06, 07, 08, 09</th>
+                    <th>3학년</th>
+                    <th>전공선택</th>
+                    <th>2학점</th>
+                    <th>5111061-02</th>
+                      <th><button onclick="myFunction26()" id="btn26">신청</button></th>
+                  </tr>
+
+                  <tr>
+                    <th>창업설계</th>
+                    <th>나스리디노프 아지즈 교수님</th>
+                    <th>수 08, 09</th>
+                    <th>3학년</th>
+                    <th>전공선택</th>
+                    <th>1학점</th>
+                    <th>5111089-01</th>
+                      <th><button onclick="myFunction27()" id="btn27">신청</button></th>
+                  </tr>
+
+                  <tr>
+                    <th>정보검색</th>
+                    <th>이재성 교수님</th>
+                    <th>수 02, 03 / 목 02</th>
+                    <th>4학년</th>
+                    <th>전공선택</th>
+                    <th>3학점</th>
+                    <th>5111042-01</th>
+                      <th><button onclick="myFunction28()" id="btn28">신청</button></th>
+                  </tr>
+
+                  <tr>
+                    <th>자연언어처리</th>
+                    <th>노서영 교수님</th>
+                    <th>화 02, 03 / 금 02</th>
+                    <th>4학년</th>
+                    <th>전공선택</th>
+                    <th>3학점</th>
+                    <th>5111072-01</th>
+                      <th><button onclick="myFunction29()" id="btn29">신청</button></th>
+                  </tr>
+
+                  <tr>
+                    <th>창업파일럿프로젝트(종합설계2)</th>
+                    <th>최경주 교수님</th>
+                    <th>화 05, 06, 07, 08</th>
+                    <th>4학년</th>
+                    <th>전공선택</th>
+                    <th>2학점</th>
+                    <th>5111091-01</th>
+                      <th><button onclick="myFunction30()" id="btn30">신청</button></th>
+                  </tr>
+
+                  <tr>
+                    <th>창업파일럿프로젝트(종합설계2)</th>
+                    <th>노서영 교수님</th>
+                    <th>화 05, 06, 07, 08</th>
+                    <th>4학년</th>
+                    <th>전공선택</th>
+                    <th>2학점</th>
+                    <th>5111091-02</th>
+                      <th><button onclick="myFunction31()" id="btn31">신청</button></th>
+                  </tr>
+
+                  <tr>
+                    <th>빅데이터분석시각화</th>
+                    <th>나스리디노프 아지즈 교수님</th>
+                    <th>월 05, 06 / 수 07</th>
+                    <th>4학년</th>
+                    <th>전공선택</th>
+                    <th>3학점</th>
+                    <th>5111092-01</th>
+                      <th><button onclick="myFunction32()" id="btn32">신청</button></th>
+                  </tr>
+
+                  <tr>
+                    <th>정보.컴퓨터교육론</th>
+                    <th>이상호 교수님</th>
+                    <th>수 01, 02, 03</th>
+                    <th>4학년</th>
+                    <th>전공선택</th>
+                    <th>3학점</th>
+                    <th>5111094-01</th>
+                      <th><button onclick="myFunction33()" id="btn33">신청</button></th>
+                  </tr>
+              </table>
+      </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </body>
+
+</html>
