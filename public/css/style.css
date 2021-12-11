@@ -8582,7 +8582,7 @@ h1, h2, h3, h4, h5,
   background: -ms-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
   background: -webkit-linear-gradient(315deg, #ce4be8 0%, #207ce5 100%);
   background: -o-linear-gradient(315deg, #ce4be8 0%, #207ce5 100%);
-  background: linear-gradient(135deg, #ce4be8 0%, #207ce5 100%);
+  background: linear-gradient(135deg, #ffc107 0%, #fdf59a 100%); 
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce4be8', endColorstr='#207ce5', GradientType=1 ); }
 
 .hero-wrap {
@@ -8607,7 +8607,7 @@ h1, h2, h3, h4, h5,
     background: -webkit-linear-gradient(45deg, rgba(32, 124, 229, 0) 0%, rgba(146, 95, 206, 0) 55%, #f048bb 100%);
     background: -o-linear-gradient(45deg, rgba(32, 124, 229, 0) 0%, rgba(146, 95, 206, 0) 55%, #f048bb 100%);
     background: -ms-linear-gradient(45deg, rgba(32, 124, 229, 0) 0%, rgba(146, 95, 206, 0) 55%, #f048bb 100%);
-    background: linear-gradient(45deg, rgba(32, 124, 229, 0) 0%, rgba(146, 95, 206, 0) 55%, #f048bb 100%);
+    background: linear-gradient(45deg, rgba(32, 124, 229, 0) 0%, rgba(146, 95, 206, 0) 55%, #ffc107 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207ce5', endColorstr='#f048bb', GradientType=1 ); }
   .hero-wrap.hero-wrap-2 {
     height: 600px;
@@ -8725,7 +8725,7 @@ h1, h2, h3, h4, h5,
   .login-wrap h3 {
     font-weight: 500;
     font-size: 20px;
-    color: #4986fc; }
+    color: #ffc107; }
   .login-wrap .form-group {
     position: relative;
     margin-bottom: 30px; }
@@ -8775,7 +8775,7 @@ h1, h2, h3, h4, h5,
   background: #f9faff !important; }
 
 .bg-primary {
-  background: #4986fc; }
+  background: #ffc107; }
 
 .btn {
   cursor: pointer;
@@ -8789,8 +8789,8 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #4986fc !important;
-    border: 1px solid #4986fc !important;
+    background: #ffc107 !important;
+    border: 1px solid #ffc107 !important;
     color: #fff !important; }
     .btn.btn-primary:hover {
       border: 1px solid #4986fc;
