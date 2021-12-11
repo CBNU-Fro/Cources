@@ -29,6 +29,20 @@
     <!--    Stylesheets-->
     <!-- ===============================================-->
     <link href="assets/css/theme.css" rel="stylesheet" />
+    <style>
+      th, td {
+          border: 1px solid darkgray;
+          border-collapse: collapse;
+          text-align: center;
+          width: 200px;
+          height: 80px;
+          padding: 20px;
+
+      }
+      th {
+          text-align: center;
+      }
+      </style>      
 
   </head>
 
@@ -49,8 +63,8 @@
           <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base">
               <li class="nav-item px-2"><a class="nav-link active" aria-current="page" href="index.html">수강 신청</a></li>
-              <li class="nav-item px-2"><a class="nav-link" aria-current="page" href="pricing.html">수강 신청 내역</a></li>
-              <li class="nav-item px-2"><a class="nav-link" aria-current="page" href="web-development.html">시간표 확인</a></li>
+              <li class="nav-item px-2"><a class="nav-link" aria-current="page" href="index-list.html">수강 신청 내역</a></li>
+              <li class="nav-item px-2"><a class="nav-link" aria-current="page" href="time-table.html">시간표 확인</a></li>
             </ul><a class="btn btn-primary order-1 order-lg-0" href="#!">로그 아웃</a>
             
           </div>
@@ -67,8 +81,7 @@
 
 
         <div class="container">
-          <table>
-            <caption style="margin: 20px;">2021년도 1학기 시간표</caption>
+          <table style="margin:100px auto;">
             <tr>
                 <th> </th>
                 <th>월</th>
@@ -81,86 +94,85 @@
                 <th>1교시</th>
                 <td> </td>
                 <td> </td>
+                <td rowspan="3" style="background-color: rgb(213, 247, 228);">음악의 이론과 감상<br><professor>한수정</professor></td>
                 <td> </td>
                 <td> </td>
-                <td rowspan="4" style="background-color: seagreen;">오픈소스전문프로젝트<br>
-                    <professor>강재구교수님</professor>
-                </td>
             </tr>
             <tr>
                 <th>2교시</th>
+                <td rowspan="2" style="background-color: rgb(215, 210, 247);">인공지능<br>
+                  <professor>이건명</professor>
+              </td>
                 <td> </td>
                 <td> </td>
                 <td> </td>
-                <td rowspan="3" style="background-color: slateblue;">세계문화유산의 이해<br>
-                    <professor>이상민교수님</professor>
-                </td>
             </tr>
             <tr>
                 <th>3교시</th>
                 <td> </td>
-                <td rowspan="2" style="background-color: yellowgreen ;">객체지향 설계<br>
-                    <professor>이종연교수님</professor>
-                </td>
+                <td> </td>
                 <td> </td>
             </tr>
             <tr>
                 <th>4교시</th>
                 <td> </td>
-                <td rowspan="2" style="background-color: steelblue;">운영체제<br>
-                    <professor>조희승교수님</professor>
-                </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
             </tr>
             <tr>
                 <th>5교시</th>
                 <td> </td>
-                <td rowspan="2" style="background-color: turquoise;">컴파일러<br>
-                    <professor>이재성교수님</professor>
+                <td rowspan="1" style="background-color: rgb(215, 210, 247);">인공지능<br>
+                    <professor>이건명</professor>
                 </td>
-                <td style="background-color: steelblue;">운영체제<br>
-                    <professor>조희승교수님</professor>
+                <td  rowspan="2" style="background-color:rgb(200, 227, 250);">데이터베이스시스템<br>
+                    <professor>나스리디노프아지즈</professor>
                 </td>
                 <td> </td>
+                <td  rowspan="2" style="background-color: rgb(244, 201, 248);">정보보호<br>
+                  <professor>조오현</professor>
+              </td>
+
             </tr>
             <tr>
                 <th>6교시</th>
                 <td> </td>
-                <td rowspan="2" style="background-color: tomato;">컴퓨터네트워크<br>
-                    <professor>조오현교수님</professor>
-                </td>
-                <td rowspan="2" style="background-color: turquoise;">컴파일러<br>
-                    <professor>이재성교수님</professor>
-                </td>
                 <td> </td>
+                <td rowspan="4" style="background-color: rgb(245, 209, 202);">산학프로젝트<br>
+                    <professor>강재구</professor>
+                </td>
             </tr>
             <tr>
                 <th>7교시</th>
-                <td style="background-color: tomato;">컴퓨터네트워크<br>
-                    <professor>조오현교수님</professor>
+                <td style="background-color:rgb(244, 201, 248);">정보보호<br>
+                    <professor>조오현</professor>
                 </td>
+                <td> </td>
                 <td> </td>
                 <td> </td>
             </tr>
             <tr>
                 <th>8교시</th>
-                <td rowspan="2" style="background-color: sandybrown;">오픈소스 웹소프트웨어<br>
-                    <professor>류관희교수님</professor>
-                </td>
-                <td rowspan="2" style="background-color: sandybrown;">오픈소스 웹소프트웨어<br>
-                    <professor>류관희교수님</professor>
-                </td>
-                <td rowspan="2" style="background-color: orange;">창업기획<br>
-                    <professor>나스리디노프 아지즈교수님</professor>
-                </td>
-                <td rowspan="2" style="background-color: yellowgreen;">객체지향 설계<br>
-                    <professor>이종연교수님</professor>
+                <td rowspan="2" style="background-color: rgb(205, 248, 201);">소프트웨어공학<br>
+                    <professor>이종연</professor>
                 </td>
                 <td> </td>
+
+                <td rowspan="2" style="background-color: rgb(245, 198, 157);">창업설계<br>
+                    <professor>나스리디노프아지즈</professor>
+                </td>
+                <td rowspan="2" style="background-color: rgb(200, 227, 250);">데이터베이스시스템<br>
+                    <professor>나스리디노프 아지즈교수님</professor>
+                </td>
             </tr>
             <tr>
                 <th>9교시</th>
-                <td> </td>
-            </tr>
+                <td rowspan="2" style="background-color: rgb(205, 248, 201);">소프트웨어공학<br>
+                  <professor>이종연</professor>
+              </td>
+          </tr>
         </table>
             </div>
         <!-- end of .container-->
